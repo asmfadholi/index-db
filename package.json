@@ -5,7 +5,12 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "gulp serve"
+    "serve": "gulp serve",
+    "start": "gulp serve"
+  },
+  "engines": {
+    "node": "10.16.0",
+    "npm": ">=6.0.0"
   },
   "author": "",
   "license": "ISC",
